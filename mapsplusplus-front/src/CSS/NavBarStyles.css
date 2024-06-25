@@ -23,4 +23,5 @@ body {
     left: 15%;
     bottom: calc((100% - 3vh) / 2);
     font-size: 3vh;
+    user-select: none;
 }
