@@ -1,10 +1,8 @@
-import NavBar from "../Components/NavBar";
-import MapInterface from "../Components/MapInterface";
+import MapInterface from '../Components/MapInterface.js';
 
 function MainPage() {
   return (
     <div>
-        <NavBar />
         <MapInterface />
     </div>
   );
