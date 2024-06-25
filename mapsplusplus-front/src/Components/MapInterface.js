@@ -1,7 +1,14 @@
+import '../CSS/MapInterfaceStyles.css'
+
 function MapInterface() {
     return (
       <div>
-        Map Interface!
+        <div class='MapContainer'>
+            <div class='Map'>
+                {/* Placeholder Text */}
+                Map goes here
+            </div>
+        </div>
       </div>
     );
   }
