@@ -1,10 +1,9 @@
-import NavBar from "../Components/NavBar";
-import MapInterface from "../Components/MapInterface";
+import MapInterface from '../Components/MapInterface.js';
 
 function MainPage() {
+  document.body.style.backgroundColor = 'orange';
   return (
     <div>
-        <NavBar />
         <MapInterface />
     </div>
   );
