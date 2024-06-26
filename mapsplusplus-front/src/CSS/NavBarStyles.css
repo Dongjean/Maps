@@ -7,7 +7,9 @@ body {
     top: 0%;
     height: 100px;
     width: 100%;
+    overflow: auto;
     background-color: blue;
+    /* padding-right: 10px; */
 }
 
 .Logo {
@@ -20,7 +22,7 @@ body {
 .LogoPlaceholderText {
     position: absolute;
     left: 15%;
-    bottom: calc((100% - 3vh) / 2);
-    font-size: 3vh;
+    bottom: calc((100% - 50px) / 2);
+    font-size: 50px;
     user-select: none;
 }
