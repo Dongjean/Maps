@@ -10,7 +10,7 @@ function App() {
 
     return (
         <div>
-            <NavBar />
+            <NavBar GoHome={() => {navigate('/')}} />
             <Routes>
 				<Route path='/' exact element={<MainPage />} />
 

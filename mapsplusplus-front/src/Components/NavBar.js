@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import '../CSS/NavBarStyles.css'
 
-function NavBar() {
+function NavBar(props) {
     const [LogoColour, setLogoColour] = useState('transparent');
 
     return (
@@ -14,7 +14,7 @@ function NavBar() {
                 onMouseLeave={() => {setLogoColour('transparent')}}
 
                 onMouseDown={() => {setLogoColour('grey')}}
-                onMouseUp={() => {setLogoColour('darkgrey')}}
+                onMouseUp={() => {setLogoColour('darkgrey'); props.GoHome()}}
 
                 style={{backgroundColor: LogoColour, cursor: 'pointer'}}
             >
