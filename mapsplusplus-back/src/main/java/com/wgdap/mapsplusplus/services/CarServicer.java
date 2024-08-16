@@ -1,7 +1,7 @@
 package com.wgdap.mapsplusplus.services;
 
-public class PublicTransportServicer {
-	
+public class CarServicer {
+
 	//GET Methods
 	public static String[] getRoute(String Start, String End) {
 		//Get the Route Data
@@ -25,9 +25,9 @@ public class PublicTransportServicer {
         return str;
     }
     
-    public static String[] getPrice(String Start, String End) {
-        //Get the Price Data
-        String[] str = {"Eat", "Shit", "Price"};
+    public static String[] getERP(String Start, String End) {
+        //Get the ERP Data
+        String[] str = {"Eat", "Shit", "ERP"};
         
 		System.out.println(Start);
 		System.out.println(End);

@@ -1,11 +1,11 @@
 package com.wgdap.mapsplusplus.services;
 
-public class PublicTransportServicer {
-	
+public class PrivateHireServicer {
+
 	//GET Methods
-	public static String[] getRoute(String Start, String End) {
-		//Get the Route Data
-		String[] str = {"Eat", "Shit", "Route"};
+	public static String[] getGrabData(String Start, String End) {
+		//Get the Grab Data
+		String[] str = {"Eat", "Shit", "Grab"};
 		
 		System.out.println(Start);
 		System.out.println(End);
@@ -14,9 +14,9 @@ public class PublicTransportServicer {
 		return str;
 	}
 	
-    public static String[] getTime(String Start, String End) {
-        //Get the Time Data
-        String[] str = {"Eat", "Shit", "Time"};
+    public static String[] getGojekData(String Start, String End) {
+        //Get the Gojek Data
+        String[] str = {"Eat", "Shit", "Gojek"};
         
 		System.out.println(Start);
 		System.out.println(End);
@@ -25,9 +25,9 @@ public class PublicTransportServicer {
         return str;
     }
     
-    public static String[] getPrice(String Start, String End) {
-        //Get the Price Data
-        String[] str = {"Eat", "Shit", "Price"};
+    public static String[] getComfortData(String Start, String End) {
+        //Get the Comfort Data
+        String[] str = {"Eat", "Shit", "Comfort"};
         
 		System.out.println(Start);
 		System.out.println(End);
